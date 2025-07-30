@@ -1,0 +1,24 @@
+<ivy-module version="2.0">
+    <info organisation="com.formdev" module="flatlaf-demo" status="integration" />
+    
+    <configurations defaultconfmapping="compile->default">
+        <conf name="compile" description="Required to compile your application"/>
+    </configurations>
+    
+    <dependencies>
+		<dependency org="com.formdev" name="flatlaf" rev="3.6.1"/>
+		<dependency org="com.formdev" name="flatlaf-extras" rev="3.6.1"/>
+		<dependency org="com.formdev" name="flatlaf-swingx" rev="3.6.1"/>
+		<dependency org="com.formdev" name="flatlaf-jide-oss" rev="3.6.1"/>
+
+		<dependency org="com.formdev" name="flatlaf-fonts-inter" rev="4.1"/>
+		<dependency org="com.formdev" name="flatlaf-fonts-jetbrains-mono" rev="2.304"/>
+		<dependency org="com.formdev" name="flatlaf-fonts-roboto" rev="2.137"/>
+		<dependency org="com.formdev" name="flatlaf-fonts-roboto-mono" rev="3.000"/>
+
+		<dependency org="com.miglayout" name="miglayout-core" rev="11.4.2"/>
+		<dependency org="com.miglayout" name="miglayout-swing" rev="11.4.2"/>
+		
+		<dependency org="com.jidesoft" name="jide-oss" rev="3.6.18"/>
+    </dependencies>
+</ivy-module>
